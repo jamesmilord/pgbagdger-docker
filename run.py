@@ -5,6 +5,7 @@ import schedule
 import time
 import os
 import subprocess
+
 import boto3
 import pickle
 
@@ -142,7 +143,7 @@ def run():
         sync_s3(bucket, key)
         run_pgbadger(files)
         sync_s3(bucket, key, upload=True)
-        # upload_to_s3(bucket, key, region)
+        # upload_to_s3(bucket, key, region)``
     except Exception as e:
         traceback.print_exc()
     finally:

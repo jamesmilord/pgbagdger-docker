@@ -1,7 +1,7 @@
-# pgbadger-rds-cron
+# pgbadger-cron
 
 docker container that pulls logs from rds and parses them with pgbadger.
-The resulting html file is uploaded to s3 buckets 
+The resulting html file is uploaded to s3 buckets
 
 
 ## How do I use it
