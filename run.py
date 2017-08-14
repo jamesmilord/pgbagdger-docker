@@ -5,7 +5,6 @@ import schedule
 import time
 import os
 import subprocess
-import psutil
 import boto3
 import pickle
 
